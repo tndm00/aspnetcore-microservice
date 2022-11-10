@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c89pfkSlE1AZs7X6NW4wDaF1jNf+wlYpJiYTwIUUhow6wx2YB0269ajVTanGI/QMNrzz8v6E9vEsYqfF6RFtSg==",
+  "dgSpecHash": "I+wOzttiRyLyyjS2lJNierPcWs970zjZft85PA1LSo81WHi3qe6DBe2C3kT5aay1mlF2/b2ZOv9d9Wq7ahlCTg==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Basket.API\\Basket.API.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",

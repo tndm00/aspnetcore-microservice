@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {}
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {}
   },
   "projects": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
         "projectName": "Hangfire.API",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
         "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Hangfire.API\\obj\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

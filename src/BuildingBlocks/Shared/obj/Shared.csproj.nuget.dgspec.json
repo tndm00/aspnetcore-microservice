@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Shared\\obj\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

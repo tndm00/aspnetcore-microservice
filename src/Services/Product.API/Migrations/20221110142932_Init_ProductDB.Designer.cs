@@ -11,14 +11,14 @@ using Product.API.Porsistence;
 namespace Product.API.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20221105085232_Init_ProductDB")]
+    [Migration("20221110142932_Init_ProductDB")]
     partial class Init_ProductDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.10")
+                .HasAnnotation("ProductVersion", "6.0.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Product.API.Entities.CatalogProduct", b =>
@@ -43,7 +43,7 @@ namespace Product.API.Migrations
 
                     b.Property<string>("No")
                         .IsRequired()
-                        .HasColumnType("nvarchar(250)");
+                        .HasColumnType("varchar(150)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(12,2)");
@@ -53,6 +53,9 @@ namespace Product.API.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("No")
+                        .IsUnique();
 
                     b.ToTable("Products");
                 });

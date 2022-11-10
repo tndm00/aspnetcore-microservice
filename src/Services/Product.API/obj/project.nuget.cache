@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kDC3EJ2KHuBgZp7auWSdpVaSoAjfq1WM9dABKHvqKf3D24q+1aeIhw1EET/O0ke2Dkv71YDQ6OjmZ6TiuH+lzw==",
+  "dgSpecHash": "a425cHP+C6W4cBKDba1Ip6OPoSMTMSBRXzI3tHKgfstUDW79chlXdMCu9XT62/PcgOqN7fiJPsPnxRerlORXAQ==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Product.API\\Product.API.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

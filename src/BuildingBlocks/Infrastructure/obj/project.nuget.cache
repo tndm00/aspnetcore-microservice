@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fNq5t1b+ixB8RkAwvUzfGHCIaTzaNsRN5QJBH9duW0kY8E1tHRumzlHmijZQMJhKr8oEigi6fmz3euluOES3tw==",
+  "dgSpecHash": "UuQQAXpcQXMUs/paTrhRzOSdqSbm28TL14hhk2BCtj2w7QhbHfoS7K8E9Z9uQTpUgVElr7h6BofTXjmQl7PTMQ==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

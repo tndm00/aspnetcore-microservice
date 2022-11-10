@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {}
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {}
   },
   "projects": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

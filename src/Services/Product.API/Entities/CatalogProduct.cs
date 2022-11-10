@@ -7,7 +7,7 @@ namespace Product.API.Entities
     public class CatalogProduct : EntittyAuditBase<long>
     {
         [Required]
-        [Column(TypeName = "nvarchar(250)")]
+        [Column(TypeName = "varchar(150)")]
         public string No { get; set; }
 
         [Required]

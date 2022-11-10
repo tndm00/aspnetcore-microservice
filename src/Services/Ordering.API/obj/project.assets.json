@@ -996,11 +996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Ordering.API\\Ordering.API.csproj",
+      "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering.API\\Ordering.API.csproj",
       "projectName": "Ordering.API",
-      "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Ordering.API\\Ordering.API.csproj",
+      "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering.API\\Ordering.API.csproj",
       "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-      "outputPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Ordering.API\\obj\\",
+      "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1021,8 +1021,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-              "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             }
           }
         }

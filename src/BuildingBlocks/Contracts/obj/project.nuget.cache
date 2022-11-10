@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RRjhtV1kKvL+UxWrYKhsiDMyOPnGs6NJD/6XWIiPI3uTIynTk1t+tdj8TGdRil8ijSpNjN2+2VBEmGxC1+QFzw==",
+  "dgSpecHash": "Q0TJYQ0xp1Pou9OYX8L8MNi14Rs7i1GxXEwE3FqOGnNsduu6SAN4AaVJnXALX482PLIqQ1FRfG1ZiFF+M/R5pA==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.6\\microsoft.entityframeworkcore.abstractions.6.0.6.nupkg.sha512",

@@ -22,3 +22,15 @@ D:\ThanhNhan\micro-service\asp.netcore-microservices\src\BuildingBlocks\Contract
 D:\ThanhNhan\micro-service\asp.netcore-microservices\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.dll
 D:\ThanhNhan\micro-service\asp.netcore-microservices\src\BuildingBlocks\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 D:\ThanhNhan\micro-service\asp.netcore-microservices\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Contracts.deps.json
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\ref\Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Contracts.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfoInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.AssemblyInfo.cs
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.CoreCompileInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\ref\Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xabzlG+HbncTPHNDq89hyhbMGuuC7mRmGylKzmiAAOES1YyGr2LcY/WagPaQj29chvPc6HvAitFIOMuSsvPpFA==",
+  "dgSpecHash": "VjV5wt2DGkygyOoYpxItUP5zjVoRL6OcbaG/Z2hIjEWWZaVsjIysIujxeOw/zR/pGqiMzxQo8F2uevuIg/0rUA==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.8\\microsoft.extensions.configuration.abstractions.3.1.8.nupkg.sha512",

@@ -19,7 +19,8 @@ namespace Product.API.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    No = table.Column<string>(type: "nvarchar(250)", nullable: false),
+                    No = table.Column<string>(type: "varchar(150)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
                     Name = table.Column<string>(type: "nvarchar(250)", nullable: false),
                     Summary = table.Column<string>(type: "nvarchar(255)", nullable: false),
                     Description = table.Column<string>(type: "text", nullable: false)
@@ -33,6 +34,12 @@ namespace Product.API.Migrations
                     table.PrimaryKey("PK_Products", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_No",
+                table: "Products",
+                column: "No",
+                unique: true);
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

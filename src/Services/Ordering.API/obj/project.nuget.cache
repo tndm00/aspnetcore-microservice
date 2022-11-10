@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ovnGRaH5N4DFQWgu1Rx5pNtulWnc1tsoW0VeX8p8YVGvN5s7/pJoQwvcuUaC0C7fVKAfQM4QnskxMuQXB4i71w==",
+  "dgSpecHash": "16Qzxb9nw9k9wQQ3DufcB0DUudILRzi+lVo6D1OQP8q6MpsEzQNLHmfEZeeo0f3f0NTsxDoC3Di2obQB7K77xA==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\Services\\Ordering.API\\Ordering.API.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering.API\\Ordering.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.extensions.configuration\\2.0.0\\microsoft.extensions.configuration.2.0.0.nupkg.sha512",

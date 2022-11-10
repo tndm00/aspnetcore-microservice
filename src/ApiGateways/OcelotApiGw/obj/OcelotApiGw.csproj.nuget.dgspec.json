@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
   },
   "projects": {
-    "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "projectName": "OcelotApiGw",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\asp.netcore-microservices\\src\\ApiGateways\\OcelotApiGw\\obj\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
