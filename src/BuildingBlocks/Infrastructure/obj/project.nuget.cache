@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UuQQAXpcQXMUs/paTrhRzOSdqSbm28TL14hhk2BCtj2w7QhbHfoS7K8E9Z9uQTpUgVElr7h6BofTXjmQl7PTMQ==",
+  "dgSpecHash": "z79uDpH5rTPB5pQ24ffMHuM2R7bm29Gby/PVLipHaDX+xoTB2oFGiXrzeRKiRHTjGBLiU7PkT7dlUW58kYSziA==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [

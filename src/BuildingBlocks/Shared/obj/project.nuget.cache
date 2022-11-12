@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6e48FQBAEfydHN5l5KJTFY9qdEXbDuDFxTiRcnTNZPcHDypqPj1G4TQouyjnuZUbvlO2Atq/o8jKdudiq2xWeQ==",
+  "dgSpecHash": "OEjNlIIhxxiAyIhQv5QDeiaanRlfkI5uFHQrB+SwtbLoep2kxiZpPRDypsYimB0r2uAwA7g80cjwdu6CXJelug==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
   "expectedPackageFiles": [],

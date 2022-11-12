@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+JxGK2DIv8oJD7hOWqJNAxP0MBF+R1T728Do4Ui6715nexLq8GNNVftzZtmkYPqbmBiDyMvHdlr/W8dYguh7QA==",
+  "dgSpecHash": "BaqBuoNRnWAF37AdqG6Q00tqjjxSN56C9djRhW0VDSp87QRfcAsGKaAbPOp/jYFa30qOTxrRPtmysCfEDk0kaA==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Inventory.API\\Inventory.API.csproj",
   "expectedPackageFiles": [
