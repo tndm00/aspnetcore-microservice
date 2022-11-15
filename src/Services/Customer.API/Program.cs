@@ -1,5 +1,7 @@
 
 using Common.Logging;
+using Customer.API.Porsistence;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,9 @@ try
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
 
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnectionString");
+    builder.Services.AddDbContext<CustomerContext>(options => options.UseNpgsql(connectionString));
+
     var app = builder.Build();
 
     // Configure the HTTP request pipeline.
@@ -31,11 +36,17 @@ try
 
     app.MapControllers();
 
-    app.Run();
+    app.SeedCustomerData()
+        .Run();
 }
 catch (Exception ex)
 {
-    Log.Fatal(ex, "Unhandled exception");
+    string type = ex.GetType().Name;
+    if (type.Equals("StopTheHostException", StringComparison.Ordinal))
+    {
+        throw;
+    }
+    Log.Fatal(ex, $"Unhandled exception: {ex.Message}");
 }
 finally
 {
