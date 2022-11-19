@@ -1,6 +1,7 @@
 
 using Common.Logging;
 using Contracts.Common.Interfaces;
+using Customer.API.Controllers;
 using Customer.API.Porsistence;
 using Customer.API.Repositories;
 using Customer.API.Repositories.Interfaces;
@@ -13,7 +14,7 @@ using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog(Serilogger.Configure);
 
-Log.Information("Starting Customer API up");
+Log.Information("Starting Customer Minimal API up");
 
 try
 {
@@ -29,17 +30,16 @@ try
 
     //Config Services
     builder.Services.AddScoped<ICustomerRepository, CustomerRepository>()
-        .AddScoped(typeof(IRepsoitoryBaseAsync<,,>), typeof(RepositoryBaseAsync<,,>))
-        .AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>))
         .AddScoped(typeof(ICustomerService), typeof(CustomerService));
 
     var app = builder.Build();
 
-    app.MapGet("/", () => "Wellcome to Customer API");
+    app.MapGet("/", () => "Wellcome to Customer Minial API");
+
     app.MapGet("/api/customers", 
         async(ICustomerService customerService) => await customerService.GetCustomerAsync());
-    app.MapGet("/api/customers/{userName}", 
-        async (string userName, ICustomerService customerService) => await customerService.GetCustomerByUserName(userName));
+
+    app.MapCustomerAPI();
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
@@ -48,7 +48,14 @@ try
         app.UseSwaggerUI();
     }
 
-    app.UseHttpsRedirection();
+    //app.UseHttpsRedirection();
+    app.UseSwagger();
+
+    app.UseSwaggerUI(x =>
+    {
+        x.SwaggerEndpoint("/swagger/v1/swagger.json",
+            "Swagger Customer Minial API v1");
+    });
 
     app.UseAuthorization();
 

@@ -131,3 +131,5 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Infrastructure.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Contracts.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Infrastructure.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Shared.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Shared.pdb
