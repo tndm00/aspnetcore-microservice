@@ -133,3 +133,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Infrastructure.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Shared.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\Newtonsoft.Json.dll
