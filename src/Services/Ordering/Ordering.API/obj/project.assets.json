@@ -1304,6 +1304,19 @@
           "bin/placeholder/Common.Logging.dll": {}
         }
       },
+      "Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.6"
+        },
+        "compile": {
+          "bin/placeholder/Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.dll": {}
+        }
+      },
       "Ordering.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1328,6 +1341,9 @@
       "Ordering.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Contracts": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Ordering.Domain.dll": {}
         },
@@ -4394,6 +4410,11 @@
       "type": "project",
       "path": "../../../BuildingBlocks/Common.Logging/Common.Logging.csproj",
       "msbuildProject": "../../../BuildingBlocks/Common.Logging/Common.Logging.csproj"
+    },
+    "Contracts/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/Contracts/Contracts.csproj",
+      "msbuildProject": "../../../BuildingBlocks/Contracts/Contracts.csproj"
     },
     "Ordering.Application/1.0.0": {
       "type": "project",

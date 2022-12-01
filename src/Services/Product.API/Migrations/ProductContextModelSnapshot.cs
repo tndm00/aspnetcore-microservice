@@ -16,7 +16,7 @@ namespace Product.API.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.6")
+                .HasAnnotation("ProductVersion", "6.0.10")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Product.API.Entities.CatalogProduct", b =>
@@ -41,7 +41,7 @@ namespace Product.API.Migrations
 
                     b.Property<string>("No")
                         .IsRequired()
-                        .HasColumnType("varchar(150)");
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(12,2)");
@@ -51,9 +51,6 @@ namespace Product.API.Migrations
                         .HasColumnType("nvarchar(255)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("No")
-                        .IsUnique();
 
                     b.ToTable("Products");
                 });

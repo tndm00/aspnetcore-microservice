@@ -1,5 +1,9 @@
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\appsettings.Development.json
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\appsettings.json
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.AssemblyReference.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfoInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfo.cs
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.CoreCompileInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.MvcApplicationPartsAssemblyInfo.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.staticwebassets.runtime.json
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.exe
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.deps.json
@@ -7,11 +11,11 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\ref\Ordering.Domain.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Ordering.Domain.pdb
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfoInputs.cache
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.AssemblyInfo.cs
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.CoreCompileInputs.cache
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.MvcApplicationPartsAssemblyInfo.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Contracts.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.RazorAssemblyInfo.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.RazorAssemblyInfo.cs
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\staticwebassets.build.json
@@ -19,6 +23,7 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\scopedcss\bundle\Ordering.Domain.styles.css
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\scopedcss\projectbundle\Ordering.Domain.bundle.scp.css
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.csproj.CopyComplete
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\ref\Ordering.Domain.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.pdb

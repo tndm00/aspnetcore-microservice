@@ -26,7 +26,6 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Log
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\ref\Common.Logging.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\bin\Debug\net6.0\Common.Logging.pdb
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.csproj.AssemblyReference.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.GeneratedMSBuildEditorConfig.editorconfig
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfoInputs.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Common.Logging\obj\Debug\net6.0\Common.Logging.AssemblyInfo.cs

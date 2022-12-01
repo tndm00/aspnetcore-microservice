@@ -102,6 +102,7 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MySqlConnector.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Serilog.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
@@ -139,4 +140,3 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\ref\Product.API.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\Product.API.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\Product.API.genruntimeconfig.cache
-D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Newtonsoft.Json.dll
