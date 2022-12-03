@@ -115,7 +115,27 @@
       "ProjectGuid": "ee71a4e5-baba-4969-a871-80c6f4ecf8cf",
       "DisplayName": "Shared",
       "ColorIndex": 5
+    },
+    "057d7adf-b38a-4e20-92cd-2ac6252897e5": {
+      "ProjectGuid": "057d7adf-b38a-4e20-92cd-2ac6252897e5",
+      "DisplayName": "Ordering.API",
+      "ColorIndex": 6
+    },
+    "8ef8dbbc-a29b-4da8-8a84-b59ae538317e": {
+      "ProjectGuid": "8ef8dbbc-a29b-4da8-8a84-b59ae538317e",
+      "DisplayName": "Ordering.Application",
+      "ColorIndex": 7
+    },
+    "4a66afc0-961a-4ab0-bf80-254b6368f638": {
+      "ProjectGuid": "4a66afc0-961a-4ab0-bf80-254b6368f638",
+      "DisplayName": "Ordering.Infrastructure",
+      "ColorIndex": 8
+    },
+    "6eb0aa85-0755-404d-9261-e6432d7b01a2": {
+      "ProjectGuid": "6eb0aa85-0755-404d-9261-e6432d7b01a2",
+      "DisplayName": "Ordering.Domain",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 10
 }

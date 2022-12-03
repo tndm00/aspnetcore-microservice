@@ -93,3 +93,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.genruntimeconfig.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\obj\Debug\net6.0\Ordering.Infrastructure.MvcApplicationPartsAssemblyInfo.cs
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Infrastructure\bin\Debug\net6.0\Serilog.dll
