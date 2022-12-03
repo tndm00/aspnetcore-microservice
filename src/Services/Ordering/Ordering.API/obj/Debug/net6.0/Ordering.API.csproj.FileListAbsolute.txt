@@ -123,3 +123,6 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.genruntimeconfig.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\obj\Debug\net6.0\Ordering.API.MvcApplicationPartsAssemblyInfo.cs
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Shared.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
