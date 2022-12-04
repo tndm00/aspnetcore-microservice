@@ -1,5 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Contracts.Common.Interfaces;
+using Infrastructure.Common;
+using Microsoft.EntityFrameworkCore;
+using Ordering.Application.Common.Interfaces;
 using Ordering.Infrastructure.Persistence;
+using Ordering.Infrastructure.Repositories;
 
 namespace Ordering.Infrastructure
 {
@@ -14,6 +18,8 @@ namespace Ordering.Infrastructure
             });
 
             services.AddScoped<OrderContextSeed>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped(typeof(IUnitOfWork<>), typeof(UnitOfWork<>));
 
             return services;
         }

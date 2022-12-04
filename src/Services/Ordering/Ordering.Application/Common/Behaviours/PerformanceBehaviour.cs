@@ -7,9 +7,9 @@ namespace Ordering.Application.Common.Behaviours
         where TRequest : IRequest<TResponse>
     {
         private readonly Stopwatch _timer;
-        private readonly ILogger _logger;
+        private readonly ILogger<PerformanceBehaviour<TRequest, TResponse>> _logger;
 
-        public PerformanceBehaviour(ILogger logger)
+        public PerformanceBehaviour(ILogger<PerformanceBehaviour<TRequest, TResponse>> logger)
         {
             _timer = new Stopwatch();
             _logger = logger;
