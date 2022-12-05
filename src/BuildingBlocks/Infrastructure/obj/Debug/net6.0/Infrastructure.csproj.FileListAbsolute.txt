@@ -39,3 +39,7 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastruc
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Common.Logging.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Infrastructure\bin\Debug\net6.0\Shared.pdb

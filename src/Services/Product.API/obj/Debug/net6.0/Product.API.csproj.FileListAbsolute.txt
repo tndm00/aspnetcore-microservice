@@ -140,3 +140,6 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\ref\Product.API.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\Product.API.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\obj\Debug\net6.0\Product.API.genruntimeconfig.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MailKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MimeKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll

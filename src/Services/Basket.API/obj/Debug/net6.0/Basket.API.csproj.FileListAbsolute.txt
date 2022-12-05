@@ -135,3 +135,8 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\obj\D
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\obj\Debug\net6.0\ref\Basket.API.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\obj\Debug\net6.0\Basket.API.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\obj\Debug\net6.0\Basket.API.genruntimeconfig.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MailKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MimeKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.pdb

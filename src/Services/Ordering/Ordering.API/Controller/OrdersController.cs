@@ -1,7 +1,9 @@
-﻿using MediatR;
+﻿using Contracts.Interfaces;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Common.Models;
 using Ordering.Application.Features.V1.Orders.Queries.GetOrders;
+using Shared.Services.Email;
 using System.ComponentModel.DataAnnotations;
 using System.Net;
 

@@ -129,3 +129,6 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Newtonsoft.Json.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Infrastructure.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\Infrastructure.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MailKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\MimeKit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll

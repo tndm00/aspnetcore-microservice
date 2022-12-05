@@ -34,3 +34,6 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\ref\Contracts.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.AssemblyReference.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Shared.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\Contracts\obj\Debug\net6.0\Contracts.csproj.CopyComplete
