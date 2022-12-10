@@ -8,8 +8,6 @@ namespace Shared.SeedWork
 {
     public class ApiErrorResult<T> : ApiResult<T>
     {
-        private string v;
-
         public ApiErrorResult() : this("Something wrong happened. Please try again later")
         {
 
@@ -21,7 +19,7 @@ namespace Shared.SeedWork
         }
 
         public ApiErrorResult(List<string> errors)
-            : base(false)
+            : base(false, string.Empty)
         {
             Errors = errors;
         }

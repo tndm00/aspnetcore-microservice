@@ -7,6 +7,11 @@ namespace Ordering.Infrastructure.Persistence
 {
     public class OrderContext : DbContext
     {
+        public OrderContext()
+        {
+
+        }
+
         public OrderContext(DbContextOptions<OrderContext> options) :base(options)
         {
 

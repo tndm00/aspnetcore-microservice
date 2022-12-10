@@ -12,17 +12,17 @@ namespace Shared.SeedWork
         {
         }
 
-        public ApiResult(bool isSuccessed, string message = null)
+        public ApiResult(bool isSuccessed, string message)
         {
             Message = message;
-            isSuccessed = isSuccessed;
+            IsSuccessed = isSuccessed;
         }
 
-        public ApiResult(bool isSuccessed, T data, string message = null)
+        public ApiResult(bool isSuccessed, T data, string message)
         {
             Data = data;
             Message = message;
-            isSuccessed = isSuccessed;
+            IsSuccessed = isSuccessed;
         }
 
         public string Message { get; set; }

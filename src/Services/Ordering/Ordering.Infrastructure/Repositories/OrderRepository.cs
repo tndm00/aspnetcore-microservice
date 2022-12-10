@@ -2,6 +2,9 @@
 using Infrastructure.Common;
 using Microsoft.EntityFrameworkCore;
 using Ordering.Application.Common.Interfaces;
+using Ordering.Application.Common.Models;
+using Ordering.Application.Features.V1.Orders;
+using Ordering.Application.Features.V1.Orders.Commands.UpdateOrder;
 using Ordering.Domain.Entities;
 using Ordering.Infrastructure.Persistence;
 
@@ -15,7 +18,17 @@ namespace Ordering.Infrastructure.Repositories
 
         }
 
+        public Task CreateOrder(Order crateObject) => CreateAsync(crateObject);
+
+        public async Task DeleteOrder(long id)
+        {
+            var order = await GetByIdAsync(id);
+            if (order != null) await DeleteAsync(order);
+        }
+
         public async Task<IEnumerable<Order>> GetOrderByUserName(string userName) =>
             await FindByCondition(x => x.UserName.Equals(userName)).ToListAsync();
+
+        public Task UpdateOrder(Order updateObject) => UpdateAsync(updateObject);
     }
 }
