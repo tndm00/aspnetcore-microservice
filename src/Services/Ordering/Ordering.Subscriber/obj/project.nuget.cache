@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "97EChiqV8sfJaPnpWdB8l3+bZnTLLIipsHxHAlAyvvMxw/7R7/3d/jUuICoa7qkrrQzEJNaCu5AkSPp+i36bcw==",
+  "success": true,
+  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Subscriber\\Ordering.Subscriber.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nhant\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

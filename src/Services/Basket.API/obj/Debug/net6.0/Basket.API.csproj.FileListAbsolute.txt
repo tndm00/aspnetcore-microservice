@@ -140,3 +140,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\D
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\RabbitMQ.Client.dll

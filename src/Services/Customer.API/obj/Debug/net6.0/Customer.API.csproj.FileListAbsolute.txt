@@ -137,3 +137,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\obj
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\MailKit.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\MimeKit.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Customer.API\bin\Debug\net6.0\RabbitMQ.Client.dll

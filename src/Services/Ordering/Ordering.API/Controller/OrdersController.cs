@@ -1,4 +1,5 @@
 ﻿using Contracts.Interfaces;
+using Contracts.Messages;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Ordering.Application.Common.Models;
@@ -17,10 +18,12 @@ namespace Ordering.API.Controller
     public class OrdersController : ControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly IMessageProducer _messageProducer;
 
-        public OrdersController(IMediator mediator)
+        public OrdersController(IMediator mediator, IMessageProducer messageProducer)
         {
             _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+            _messageProducer = messageProducer ?? throw new ArgumentNullException(nameof(messageProducer));
         }
 
         private static class RouteNames
@@ -45,6 +48,10 @@ namespace Ordering.API.Controller
         public async Task<ActionResult<ApiResult<long>>> CreateOrder([FromBody] CreateOrderCommand command)
         {
             var result = await _mediator.Send(command);
+
+            //Check and Test RabbitMQ
+            _messageProducer.SendMessage(result);
+
             return Ok(result);
         }
 

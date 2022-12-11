@@ -1,0 +1,16 @@
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\Ordering.Subscriber.exe
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\Ordering.Subscriber.deps.json
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\Ordering.Subscriber.runtimeconfig.json
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\Ordering.Subscriber.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\ref\Ordering.Subscriber.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\Ordering.Subscriber.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.AssemblyInfoInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.AssemblyInfo.cs
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.csproj.CoreCompileInputs.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.csproj.CopyComplete
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\ref\Ordering.Subscriber.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.genruntimeconfig.cache
