@@ -141,3 +141,10 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\D
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\Shared.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.Abstractions.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MassTransit.RabbitMqTransport.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\System.Text.Json.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\EventBus.Messages.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\EventBus.Messages.pdb

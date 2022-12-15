@@ -135,7 +135,12 @@
       "ProjectGuid": "6eb0aa85-0755-404d-9261-e6432d7b01a2",
       "DisplayName": "Ordering.Domain",
       "ColorIndex": 9
+    },
+    "7a57a0b8-59c9-4c76-a02e-339884ed3a8e": {
+      "ProjectGuid": "7a57a0b8-59c9-4c76-a02e-339884ed3a8e",
+      "DisplayName": "Ordering.Subscriber",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }

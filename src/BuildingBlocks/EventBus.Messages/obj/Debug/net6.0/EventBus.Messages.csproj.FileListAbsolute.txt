@@ -33,3 +33,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\EventBus.M
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\ref\EventBus.Messages.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\BuildingBlocks\EventBus.Messages\obj\Debug\net6.0\EventBus.Messages.csproj.AssemblyReference.cache
