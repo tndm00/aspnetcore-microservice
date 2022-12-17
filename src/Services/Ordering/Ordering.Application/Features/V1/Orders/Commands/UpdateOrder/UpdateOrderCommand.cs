@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Infrastructure.Mappings;
 using MediatR;
 using Ordering.Application.Common.Mappings;
 using Ordering.Application.Common.Models;
@@ -16,8 +17,6 @@ namespace Ordering.Application.Features.V1.Orders.Commands.UpdateOrder
             Id = id;
         }
 
-        public string UserName { get; set; }
-
         public decimal TotalPrice { get; set; }
 
         public string FirstName { get; set; }
@@ -32,7 +31,9 @@ namespace Ordering.Application.Features.V1.Orders.Commands.UpdateOrder
 
         public void Mapping(Profile profile)
         {
-            profile.CreateMap<UpdateOrderCommand, Order>();
+            profile.CreateMap<UpdateOrderCommand, Order>()
+                .ForMember(x => x.Status, opts => opts.Ignore())
+                .IgnoreAllNonExisting();
         }
     }
 }

@@ -4,6 +4,82 @@
     "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {}
   },
   "projects": {
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/symphonyvsts/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -68,7 +144,148 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/symphonyvsts/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/symphonyvsts/_packaging/nuget-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -132,7 +349,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -164,6 +381,12 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              },
+              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+              },
               "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
                 "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               },
@@ -230,7 +453,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -295,7 +518,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
         }
       }
     }

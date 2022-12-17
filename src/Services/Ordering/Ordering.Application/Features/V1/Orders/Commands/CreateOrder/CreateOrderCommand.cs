@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EventBus.Messages.Events;
 using MediatR;
 using Ordering.Application.Common.Mappings;
 using Ordering.Domain.Entities;
@@ -6,7 +7,7 @@ using Shared.SeedWork;
 
 namespace Ordering.Application.Features.V1.Orders
 {
-    public class CreateOrderCommand : IRequest<ApiResult<long>>, IMapFrom<Order>
+    public class CreateOrderCommand : IRequest<ApiResult<long>>, IMapFrom<Order>, IMapFrom<BasketCheckOutEvent>
     {
         public string UserName { get; set; }
 
@@ -25,6 +26,7 @@ namespace Ordering.Application.Features.V1.Orders
         public void Mapping(Profile profile)
         {
             profile.CreateMap<CreateOrderCommand, Order>();
+            profile.CreateMap<BasketCheckOutEvent, CreateOrderCommand>();
         }
     }
 }

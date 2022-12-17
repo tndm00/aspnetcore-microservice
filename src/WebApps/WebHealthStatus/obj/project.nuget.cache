@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rR4LZ+C9KOXWXMB6AKGotEIiLDKpan7Pv4i2HcCoknTPKR2lm0ZDi1KRGXC3YVVJ5seoKob7eFqgpFQSSd3TRg==",
+  "dgSpecHash": "P6KwYrVzNQaokdGpnYpLiPYd0dR7T02XMZKFs8JWlM/I4Qyv+BlxBZa8yqPqruUOVXHwSCFSffTydq4oP5e46g==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\WebApps\\WebHealthStatus\\WebHealthStatus.csproj",
   "expectedPackageFiles": [],

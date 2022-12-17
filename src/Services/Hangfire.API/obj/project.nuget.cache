@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X0wEjA0AQ3KUIrTgXRs68AqGRKbCJiJle+d4+xSWrwIpSxtlcDHodXz5oa+SxwmlRJ8w4JbzgETLcXoRx6RNzg==",
+  "dgSpecHash": "2TUwxuOVWcgfwjpJZ06T8LZ+DskELIX6OlFkD3GhM7x0DihBTaA8LZ/UlBsE4K777x/SV0/IY6uVqhz6eLnp8A==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Hangfire.API\\Hangfire.API.csproj",
   "expectedPackageFiles": [

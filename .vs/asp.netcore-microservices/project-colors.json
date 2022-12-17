@@ -140,7 +140,12 @@
       "ProjectGuid": "7a57a0b8-59c9-4c76-a02e-339884ed3a8e",
       "DisplayName": "Ordering.Subscriber",
       "ColorIndex": 10
+    },
+    "6db5310c-7236-4f27-83a5-071bdf02e056": {
+      "ProjectGuid": "6db5310c-7236-4f27-83a5-071bdf02e056",
+      "DisplayName": "EventBus.Messages",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }

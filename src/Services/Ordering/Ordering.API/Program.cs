@@ -6,6 +6,7 @@ using Infrastructure.Common;
 using Infrastructure.Messages;
 using Ordering.API.Extensions;
 using Ordering.Application;
+using Ordering.Application.Common.Mappings;
 using Ordering.Infrastructure;
 using Ordering.Infrastructure.Persistence;
 using Serilog;
@@ -20,8 +21,11 @@ try
     // Add services to the container.
     builder.Host.AddAppConfigurations();
     builder.Services.AddConfigurationSettings(builder.Configuration);
+    builder.Services.AddAutoMapper(
+        cfg => cfg.AddProfile(new MappingProfile()));
     builder.Services.AddApplicationServices();
     builder.Services.AddInfrastructureServices(builder.Configuration);
+    builder.Services.ConfigureMassTransit();
     builder.Services.AddScoped<IMessageProducer, RabbitMQProducer>();
     builder.Services.AddScoped<ISerializeService, SerializeService>();
 

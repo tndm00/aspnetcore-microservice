@@ -106,6 +106,50 @@
           "lib/net6.0/MailKit.dll": {}
         }
       },
+      "MassTransit/8.0.9": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit.Abstractions": "8.0.9",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.18",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Options": "3.1.18",
+          "System.Diagnostics.DiagnosticSource": "6.0.0",
+          "System.Reflection.Emit": "4.7.0",
+          "System.Reflection.Emit.Lightweight": "4.7.0",
+          "System.Text.Json": "6.0.2",
+          "System.Threading.Channels": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MassTransit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MassTransit.dll": {}
+        }
+      },
+      "MassTransit.Abstractions/8.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MassTransit.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MassTransit.Abstractions.dll": {}
+        }
+      },
+      "MassTransit.RabbitMQ/8.0.9": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "8.0.9",
+          "RabbitMQ.Client": "6.4.0"
+        },
+        "compile": {
+          "lib/net6.0/MassTransit.RabbitMqTransport.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MassTransit.RabbitMqTransport.dll": {}
+        }
+      },
       "MediatR/11.1.0": {
         "type": "package",
         "dependencies": {
@@ -462,10 +506,33 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.18": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.8"
+          "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Options": "3.1.18"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.18": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.1.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.1.18"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
@@ -474,13 +541,13 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Hosting.Abstractions/3.1.18": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.8",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.8",
-          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.8",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.18",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.18",
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.1.18",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.18"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.dll": {}
@@ -1018,13 +1085,19 @@
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
-      "System.Diagnostics.DiagnosticSource/5.0.0": {
+      "System.Diagnostics.DiagnosticSource/6.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
         "compile": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
         },
         "runtime": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {}
+          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Drawing.Common/5.0.0": {
@@ -1140,6 +1213,24 @@
         },
         "compile": {
           "ref/netstandard1.5/System.Reflection.dll": {}
+        }
+      },
+      "System.Reflection.Emit/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "System.Reflection.Emit.Lightweight/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
         }
       },
       "System.Reflection.Primitives/4.3.0": {
@@ -1380,13 +1471,16 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
-      "System.Threading.Channels/4.7.1": {
+      "System.Threading.Channels/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/net6.0/System.Threading.Channels.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/System.Threading.Channels.dll": {}
+          "lib/net6.0/System.Threading.Channels.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -1457,6 +1551,16 @@
           "bin/placeholder/Contracts.dll": {}
         }
       },
+      "EventBus.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EventBus.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EventBus.Messages.dll": {}
+        }
+      },
       "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1481,8 +1585,10 @@
         "dependencies": {
           "AutoMapper": "12.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "EventBus.Messages": "1.0.0",
           "FluentValidation": "11.4.0",
           "FluentValidation.DependencyInjectionExtensions": "11.4.0",
+          "Infrastructure": "1.0.0",
           "MediatR": "11.1.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Ordering.Domain": "1.0.0",
@@ -1703,6 +1809,66 @@
         "lib/netstandard2.1/MailKit.xml",
         "mailkit.3.4.3.nupkg.sha512",
         "mailkit.nuspec"
+      ]
+    },
+    "MassTransit/8.0.9": {
+      "sha512": "J9KHU3aNEveeVKjBYyvpAoyHsSxJMzx42XOR8pkAq6ntXULiMtdMPg1MnBVypzSrrGJfBo4vePeVChA2p6Qlpg==",
+      "type": "package",
+      "path": "masstransit/8.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MassTransit.dll",
+        "lib/net461/MassTransit.xml",
+        "lib/net6.0/MassTransit.dll",
+        "lib/net6.0/MassTransit.xml",
+        "lib/netstandard2.0/MassTransit.dll",
+        "lib/netstandard2.0/MassTransit.xml",
+        "lib/netstandard2.1/MassTransit.dll",
+        "lib/netstandard2.1/MassTransit.xml",
+        "masstransit.8.0.9.nupkg.sha512",
+        "masstransit.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Abstractions/8.0.9": {
+      "sha512": "dEkChfJUbfH7DR0LgMA45BTQp221jAL4+L4fpZkr71+hLkrf76N0YWqJSKpkcaqANoN9fM9oSwX8JIoc7f9ODA==",
+      "type": "package",
+      "path": "masstransit.abstractions/8.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MassTransit.Abstractions.dll",
+        "lib/net461/MassTransit.Abstractions.xml",
+        "lib/net6.0/MassTransit.Abstractions.dll",
+        "lib/net6.0/MassTransit.Abstractions.xml",
+        "lib/netstandard2.0/MassTransit.Abstractions.dll",
+        "lib/netstandard2.0/MassTransit.Abstractions.xml",
+        "lib/netstandard2.1/MassTransit.Abstractions.dll",
+        "lib/netstandard2.1/MassTransit.Abstractions.xml",
+        "masstransit.abstractions.8.0.9.nupkg.sha512",
+        "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.RabbitMQ/8.0.9": {
+      "sha512": "Tkb4LNjtK2jZwzJ1kX5pV7pR+51HHyBdj/Qpr0COsbXBGXVvKyjUnpjNLpGRyq1/JFOERoQ/lEw3nB40T8ihBA==",
+      "type": "package",
+      "path": "masstransit.rabbitmq/8.0.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/MassTransit.RabbitMqTransport.dll",
+        "lib/net461/MassTransit.RabbitMqTransport.xml",
+        "lib/net6.0/MassTransit.RabbitMqTransport.dll",
+        "lib/net6.0/MassTransit.RabbitMqTransport.xml",
+        "lib/netstandard2.0/MassTransit.RabbitMqTransport.dll",
+        "lib/netstandard2.0/MassTransit.RabbitMqTransport.xml",
+        "lib/netstandard2.1/MassTransit.RabbitMqTransport.dll",
+        "lib/netstandard2.1/MassTransit.RabbitMqTransport.xml",
+        "masstransit.rabbitmq.8.0.9.nupkg.sha512",
+        "masstransit.rabbitmq.nuspec",
+        "mt-logo-small.png"
       ]
     },
     "MediatR/11.1.0": {
@@ -2480,10 +2646,42 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.FileProviders.Abstractions/3.1.8": {
-      "sha512": "U7ffyzrPfRDH5K3h/mBpqJVoHbppw1kc1KyHZcZeDR7b1A0FRaqMSiizGpN9IGwWs9BuN7oXIKFyviuSGBjHtQ==",
+    "Microsoft.Extensions.Diagnostics.HealthChecks/3.1.18": {
+      "sha512": "Xan7z1MBhcLu4StnAskguGDMmdqouuuQe0YRz0MEiVPSYK5fw008QalP2Vuq0CMZQD+lOk0DcMGx7A+qI8/aTw==",
       "type": "package",
-      "path": "microsoft.extensions.fileproviders.abstractions/3.1.8",
+      "path": "microsoft.extensions.diagnostics.healthchecks/3.1.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.xml",
+        "microsoft.extensions.diagnostics.healthchecks.3.1.18.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions/3.1.18": {
+      "sha512": "PRj7waNZJ2e5G5VmoZxF0nNa2jexr+VDR5gq9ZV8GbCGaSmKkS1bs5fAiIx/NARs4XvSIE3prHf3/w6SLFeW9Q==",
+      "type": "package",
+      "path": "microsoft.extensions.diagnostics.healthchecks.abstractions/3.1.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.xml",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.3.1.18.nupkg.sha512",
+        "microsoft.extensions.diagnostics.healthchecks.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.1.18": {
+      "sha512": "H0Y/gICYhYqaHRmBhSGr3JF1KR7YMXLuhR0c1vqo/eM7lOrDofwDy/pjnhBIc2B2UFn0Z/xVKlxSJaltw3tUMw==",
+      "type": "package",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.1.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2492,14 +2690,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.xml",
-        "microsoft.extensions.fileproviders.abstractions.3.1.8.nupkg.sha512",
+        "microsoft.extensions.fileproviders.abstractions.3.1.18.nupkg.sha512",
         "microsoft.extensions.fileproviders.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Hosting.Abstractions/3.1.8": {
-      "sha512": "7ZJUKwPipkDvuv2KJPZ3r01wp2AWNMiYH+61i0dL89F7QICknjKpWgLKLpTSUYFgl77S3b4264I6i4HzDdrb2A==",
+    "Microsoft.Extensions.Hosting.Abstractions/3.1.18": {
+      "sha512": "9vzzrt/dIYipg6eB+ivQeYy3pRmtx8EheVF02dohP904oxMGRkcDsuetaoYXsidVgler56VMv45WZWZavF41nw==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.abstractions/3.1.8",
+      "path": "microsoft.extensions.hosting.abstractions/3.1.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2508,7 +2706,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Hosting.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Hosting.Abstractions.xml",
-        "microsoft.extensions.hosting.abstractions.3.1.8.nupkg.sha512",
+        "microsoft.extensions.hosting.abstractions.3.1.18.nupkg.sha512",
         "microsoft.extensions.hosting.abstractions.nuspec"
       ]
     },
@@ -3533,32 +3731,29 @@
         "version.txt"
       ]
     },
-    "System.Diagnostics.DiagnosticSource/5.0.0": {
-      "sha512": "tCQTzPsGZh/A9LhhA6zrqCRV4hOHsK90/G7q3Khxmn6tnB1PuNU0cRaKANP2AWcF9bn0zsuOoZOSrHuJk6oNBA==",
+    "System.Diagnostics.DiagnosticSource/6.0.0": {
+      "sha512": "frQDfv0rl209cKm1lnwTgFPzNigy2EKk1BS3uAvHvlBVKe5cymGyHO+Sj+NLv5VF/AhHsqPIUUwya5oV4CHMUw==",
       "type": "package",
-      "path": "system.diagnostics.diagnosticsource/5.0.0",
+      "path": "system.diagnostics.diagnosticsource/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
-        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net461/System.Diagnostics.DiagnosticSource.xml",
         "lib/net5.0/System.Diagnostics.DiagnosticSource.dll",
         "lib/net5.0/System.Diagnostics.DiagnosticSource.xml",
-        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
-        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
-        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
-        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
-        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
-        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
         "system.diagnostics.diagnosticsource.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Drawing.Common/5.0.0": {
@@ -3960,6 +4155,118 @@
         "ref/xamarinwatchos10/_._",
         "system.reflection.4.3.0.nupkg.sha512",
         "system.reflection.nuspec"
+      ]
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "sha512": "VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "type": "package",
+      "path": "system.reflection.emit/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Reflection.Emit.dll",
+        "lib/netstandard1.1/System.Reflection.Emit.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.xml",
+        "lib/netstandard2.1/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Reflection.Emit.dll",
+        "ref/netstandard1.1/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/de/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/es/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/fr/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/it/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ja/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ko/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/ru/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hans/System.Reflection.Emit.xml",
+        "ref/netstandard1.1/zh-hant/System.Reflection.Emit.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.xml",
+        "ref/netstandard2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.xml",
+        "system.reflection.emit.4.7.0.nupkg.sha512",
+        "system.reflection.emit.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Reflection.Emit.Lightweight/4.7.0": {
+      "sha512": "a4OLB4IITxAXJeV74MDx49Oq2+PsF6Sml54XAFv+2RyWwtDBcabzoxiiJRhdhx+gaohLh4hEGCLQyBozXoQPqA==",
+      "type": "package",
+      "path": "system.reflection.emit.lightweight/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "lib/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "lib/netstandard2.1/_._",
+        "lib/portable-net45+wp8/_._",
+        "lib/wp80/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard1.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/de/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/es/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/fr/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/it/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ja/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ko/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/ru/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hans/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard1.0/zh-hant/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.dll",
+        "ref/netstandard2.0/System.Reflection.Emit.Lightweight.xml",
+        "ref/netstandard2.1/_._",
+        "ref/portable-net45+wp8/_._",
+        "ref/wp80/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.dll",
+        "runtimes/aot/lib/netcore50/System.Reflection.Emit.Lightweight.xml",
+        "system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+        "system.reflection.emit.lightweight.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
@@ -4733,28 +5040,31 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Threading.Channels/4.7.1": {
-      "sha512": "6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
+    "System.Threading.Channels/6.0.0": {
+      "sha512": "TY8/9+tI0mNaUMgntOxxaq2ndTkdXqLSxvPmas7XEqOlv9lQtB7wLjYGd756lOaO7Dvb5r/WXhluM+0Xe87v5Q==",
       "type": "package",
-      "path": "system.threading.channels/4.7.1",
+      "path": "system.threading.channels/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "buildTransitive/netcoreapp3.1/_._",
         "lib/net461/System.Threading.Channels.dll",
         "lib/net461/System.Threading.Channels.xml",
-        "lib/netcoreapp3.0/System.Threading.Channels.dll",
-        "lib/netcoreapp3.0/System.Threading.Channels.xml",
-        "lib/netstandard1.3/System.Threading.Channels.dll",
-        "lib/netstandard1.3/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/netcoreapp3.1/System.Threading.Channels.dll",
+        "lib/netcoreapp3.1/System.Threading.Channels.xml",
         "lib/netstandard2.0/System.Threading.Channels.dll",
         "lib/netstandard2.0/System.Threading.Channels.xml",
-        "system.threading.channels.4.7.1.nupkg.sha512",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.6.0.0.nupkg.sha512",
         "system.threading.channels.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Threading.Tasks/4.3.0": {
@@ -4893,6 +5203,11 @@
       "path": "../../../BuildingBlocks/Contracts/Contracts.csproj",
       "msbuildProject": "../../../BuildingBlocks/Contracts/Contracts.csproj"
     },
+    "EventBus.Messages/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj",
+      "msbuildProject": "../../../BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj"
+    },
     "Infrastructure/1.0.0": {
       "type": "project",
       "path": "../../../BuildingBlocks/Infrastructure/Infrastructure.csproj",
@@ -4922,6 +5237,8 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Common.Logging >= 1.0.0",
+      "EventBus.Messages >= 1.0.0",
+      "MassTransit.RabbitMQ >= 8.0.9",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.14.0",
@@ -4966,6 +5283,9 @@
             "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
               "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
+            "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+              "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+            },
             "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj": {
               "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj"
             },
@@ -4985,6 +5305,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "MassTransit.RabbitMQ": {
+            "target": "Package",
+            "version": "[8.0.9, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
@@ -5028,7 +5352,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.111\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.112\\RuntimeIdentifierGraph.json"
       }
     }
   }

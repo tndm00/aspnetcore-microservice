@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ncyLQjloN098pvisRGzmNZ1DMAUjolOxTiV91+JGt87b83jl7jRrmzaTJY1uExeQfaPVAwd4LHm5b9K8x85P4g==",
+  "dgSpecHash": "hgd2cxIbTXJch01bGxGeYBsfM+M2nZ5V5nj/no0v4mrKNwIT92mdNxcRC4gmk+xzotuT0+QAqak/NjMTh+TAvg==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [

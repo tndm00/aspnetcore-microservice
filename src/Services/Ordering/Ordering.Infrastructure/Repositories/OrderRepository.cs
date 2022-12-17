@@ -18,7 +18,11 @@ namespace Ordering.Infrastructure.Repositories
 
         }
 
-        public Task CreateOrder(Order crateObject) => CreateAsync(crateObject);
+        public async Task<Order> CreateOrder(Order crateObject) 
+        {
+            await CreateAsync(crateObject);
+            return crateObject;
+        } 
 
         public async Task DeleteOrder(long id)
         {
@@ -29,6 +33,10 @@ namespace Ordering.Infrastructure.Repositories
         public async Task<IEnumerable<Order>> GetOrderByUserName(string userName) =>
             await FindByCondition(x => x.UserName.Equals(userName)).ToListAsync();
 
-        public Task UpdateOrder(Order updateObject) => UpdateAsync(updateObject);
+        public async Task<Order> UpdateOrder(Order updateObject)
+        {
+            await UpdateAsync(updateObject);
+            return updateObject;
+        }
     }
 }
