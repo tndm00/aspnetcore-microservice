@@ -9,6 +9,7 @@ WORKDIR /src
 COPY ["Services/Basket.API/Basket.API.csproj", "src/Services/Basket.API/"]
 COPY ["BuildingBlocks/Common.Logging/Common.Logging.csproj", "src/BuildingBlocks/Common.Logging/"]
 COPY ["BuildingBlocks/Infrastructure/Infrastructure.csproj", "src/BuildingBlocks/Infrastructure/"]
+COPY ["BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj", "src/BuildingBlocks/EventBus.Messages/"]
 COPY ["BuildingBlocks/Contracts/Contracts.csproj", "src/BuildingBlocks/Contracts/"]
 RUN dotnet restore "src/Services/Basket.API/Basket.API.csproj"
 COPY . .
