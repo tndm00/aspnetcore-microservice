@@ -148,3 +148,5 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\D
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\System.Text.Json.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\EventBus.Messages.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\EventBus.Messages.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MediatR.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Basket.API\bin\Debug\net6.0\MediatR.Contracts.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hgd2cxIbTXJch01bGxGeYBsfM+M2nZ5V5nj/no0v4mrKNwIT92mdNxcRC4gmk+xzotuT0+QAqak/NjMTh+TAvg==",
+  "dgSpecHash": "kTPs1AF2EFV3tLacpGjDN3eSt7Zlv5xIRI3DNT09uPXCPHmwv3pdcOGquqfCLryTGSL+VSrhy7kcy+6FU4MZvg==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Product.API\\Product.API.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\nhant\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

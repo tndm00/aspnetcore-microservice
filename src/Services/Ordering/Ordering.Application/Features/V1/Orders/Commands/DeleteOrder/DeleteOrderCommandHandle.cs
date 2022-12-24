@@ -28,7 +28,8 @@ namespace Ordering.Application.Features.V1.Orders.Commands.DeleteOrder
 
             _logger.Information($"BEGIN: {MethodName}");
 
-            await _oderRepository.DeleteOrder(request.Id);
+            _oderRepository.Delete(orderEntity);
+            orderEntity.DeletedOrder();
             await _oderRepository.SaveChangesAsync();
 
             _logger.Information($"END: {MethodName}");

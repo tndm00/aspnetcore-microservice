@@ -29,7 +29,8 @@ namespace Ordering.Application.Features.V1.Orders.Commands.CreateOrder
             _logger.Information($"BEGIN: {MethodName}");
             var orderMapping = _mapper.Map<Order>(request);
 
-            await _oderRepository.CreateOrder(orderMapping);
+            _oderRepository.CreateOrder(orderMapping);
+            orderMapping.AddedOrder();
             await _oderRepository.SaveChangesAsync();
             _logger.Information($"Order: {orderMapping.Id} - Document No: {Guid.NewGuid()}");
 

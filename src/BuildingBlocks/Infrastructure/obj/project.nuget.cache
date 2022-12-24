@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "X01VGN1sXUUEf9dZ9jTmil3QGH9E1hJ5yUgJVde+lDjzR9x6NhXcrYzGx28ZGhXdQxyjfmDGAvVs/lHPINlgxw==",
+  "dgSpecHash": "MMYCItkIA8etXvYpSuFB5axM3gCArjFmryVeSaM0IxIjEZNQsO/Lpua+UX8709bQbS66QWUCB/cYQRn5Moof3Q==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nhant\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

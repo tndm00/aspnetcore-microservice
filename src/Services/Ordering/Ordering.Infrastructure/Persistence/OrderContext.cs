@@ -1,23 +1,47 @@
-﻿using Contracts.Domains.Interfaces;
+﻿using Contracts.Common.Events;
+using Contracts.Common.Interfaces;
+using Contracts.Domains.Interfaces;
+using Infrastructure.Extensions;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Ordering.Domain.Entities;
 using System.Reflection;
+using ILogger = Serilog.ILogger;
 
 namespace Ordering.Infrastructure.Persistence
 {
     public class OrderContext : DbContext
     {
+        private readonly IMediator _mediator;
+        private readonly ILogger _logger;
+
         public OrderContext()
         {
 
         }
 
-        public OrderContext(DbContextOptions<OrderContext> options) :base(options)
+        public OrderContext(DbContextOptions<OrderContext> options, 
+            IMediator mediator, ILogger logger) : base(options)
         {
-
+            _mediator = mediator;
+            _logger = logger;
         }
 
         public DbSet<Order> Orders { get; set; }
+
+        private List<BaseEvent> _baseEvent = new List<BaseEvent>();
+
+        private void SetBaseEventsBeforeSaveChanges()
+        {
+            var domainEntities = ChangeTracker.Entries<IEventEntity>()
+                .Select(x => x.Entity)
+                .Where(x => x.DomainEvents().Any()).ToList();
+
+            _baseEvent = domainEntities
+                .SelectMany(x => x.DomainEvents()).ToList();
+
+            domainEntities.ForEach(x => x.ClearDomainEvent());
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -26,8 +50,10 @@ namespace Ordering.Infrastructure.Persistence
             base.OnModelCreating(modelBuilder);
         }
 
-        public override Task<int> SaveChangesAsync(CancellationToken cancelationToken = new CancellationToken())
+        public override async Task<int> SaveChangesAsync(CancellationToken cancelationToken = new CancellationToken())
         {
+            SetBaseEventsBeforeSaveChanges();
+
             var modified = ChangeTracker.Entries()
                 .Where(e => e.State == EntityState.Added ||
                             e.State == EntityState.Deleted);
@@ -54,7 +80,10 @@ namespace Ordering.Infrastructure.Persistence
                         break;
                 }
             }
-            return base.SaveChangesAsync(cancelationToken);
+            var result = await base.SaveChangesAsync(cancelationToken);
+            await _mediator.DispatchDomainEventAsync(_baseEvent, _logger);
+
+            return result;
         }
     }
 }

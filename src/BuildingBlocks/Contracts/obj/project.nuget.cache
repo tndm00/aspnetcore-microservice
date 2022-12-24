@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1GXep0yT42XdSfJBjwg6RpXspNkocK6ycwpqNMPhSDHvkSEOyBJPchoqyVOXOlF5mjrOjgaw936sEW7gWonQGA==",
+  "dgSpecHash": "2RqcWYoTKULEoeZtwPLbdZhTaDJLw9GRL2UrLLYNA3BO1TRpo/vhIR227PkncusmLpGplYyMN+QfsilDK4kNmw==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.6\\microsoft.entityframeworkcore.6.0.6.nupkg.sha512",

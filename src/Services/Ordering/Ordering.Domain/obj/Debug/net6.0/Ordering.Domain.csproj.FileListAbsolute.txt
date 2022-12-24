@@ -30,3 +30,5 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\obj\Debug\net6.0\Ordering.Domain.genruntimeconfig.cache
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\MediatR.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Domain\bin\Debug\net6.0\MediatR.Contracts.dll

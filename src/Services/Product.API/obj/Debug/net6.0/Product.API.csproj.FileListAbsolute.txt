@@ -144,3 +144,5 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MimeKit.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.Contracts.dll

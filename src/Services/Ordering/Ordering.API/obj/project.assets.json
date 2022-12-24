@@ -1541,6 +1541,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "MediatR": "11.1.0",
           "Microsoft.EntityFrameworkCore": "6.0.6",
           "Shared": "1.0.0"
         },

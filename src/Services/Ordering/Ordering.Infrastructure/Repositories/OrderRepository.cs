@@ -18,11 +18,7 @@ namespace Ordering.Infrastructure.Repositories
 
         }
 
-        public async Task<Order> CreateOrder(Order crateObject) 
-        {
-            await CreateAsync(crateObject);
-            return crateObject;
-        } 
+        public void CreateOrder(Order crateObject) => Create(crateObject);
 
         public async Task DeleteOrder(long id)
         {

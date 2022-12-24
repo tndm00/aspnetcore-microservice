@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PgV4P2wCUOOLV6FToaAlzvhQcgE6CWE9NyaLrCK8Z/7YTxjH0UVLMUCS+HPUsERGyrKiGjv9a1AirGg3Nci7dg==",
+  "dgSpecHash": "1YwDhuENhTUvKO7mqN8X27K8pacY9an5RFgLHBmGP0KIj1IxLINr/CkQRoMsxv1baoEzOnyKViMRZv9ng/G05g==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
   "expectedPackageFiles": [

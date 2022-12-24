@@ -1119,6 +1119,7 @@
       },
       "Contracts/1.0.0": {
         "dependencies": {
+          "MediatR": "11.1.0",
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Shared": "1.0.0"
         },

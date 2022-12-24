@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fKf+vDRRFHKJxi/Oc1dWe05Q022nSsg6EYW8A73sA3r0SZNMuRBl7nlsCx67hERubd6cGz81imxo4yjbbg8wUw==",
+  "dgSpecHash": "QrDBZ04ix563Qs0hh9NNMHvrDdG5L/mQz0zjM2KVrD1/TCgX7KQBqpbEhzzZdkjtB33ROXPeWuhUSxTchHqAow==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Basket.API\\Basket.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,8 @@
     "C:\\Users\\nhant\\.nuget\\packages\\masstransit\\8.0.9\\masstransit.8.0.9.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\masstransit.abstractions\\8.0.9\\masstransit.abstractions.8.0.9.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\masstransit.rabbitmq\\8.0.9\\masstransit.rabbitmq.8.0.9.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\nhant\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\nhant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
