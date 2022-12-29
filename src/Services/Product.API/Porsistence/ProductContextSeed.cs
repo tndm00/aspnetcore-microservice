@@ -21,10 +21,10 @@ namespace Product.API.Porsistence
             {
                 new CatalogProduct()
                 {
-                    No = "No Fuck bitch",
-                    Name = "Name Fuck bitch",
-                    Summary = "Summary Fuck bitch",
-                    Description = "Description Fuck bitch",
+                    No = "No Fuck bitch1",
+                    Name = "Name Fuck bitch1",
+                    Summary = "Summary Fuck bitch1",
+                    Description = "Description Fuck bitch1",
                     Price = (decimal) 177948.49
                 },
                 new CatalogProduct()
