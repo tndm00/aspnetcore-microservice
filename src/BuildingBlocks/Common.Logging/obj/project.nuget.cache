@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YmXesBVMaPCiXkE27oUvsCiXHTYAj+HaLUu0R1Xi4qE85tMMi1GdMX5ds1RIyE+it8RH5xrcA4yc40rZ47Fbow==",
+  "dgSpecHash": "oORxBwCe+wjItIPyhTo/5x0j4p/Utu9otP5XNOzwizdRL/dPWV28Sd+Is6bg+5/rfO85haQTMjMoVw5yQvFhAw==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
   "expectedPackageFiles": [
