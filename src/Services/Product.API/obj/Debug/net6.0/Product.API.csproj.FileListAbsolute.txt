@@ -146,3 +146,14 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\RabbitMQ.Client.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\DnsClient.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\SharpCompress.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\Snappier.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\ZstdSharp.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Product.API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
