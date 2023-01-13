@@ -1,6 +1,7 @@
 ﻿using Inventory.API.Entities;
 using Inventory.API.Repositories.Abstraction;
 using Shared.DTOs.Inventory;
+using Shared.SeedWork;
 
 namespace Inventory.API.Services.Interfaces
 {
@@ -8,7 +9,7 @@ namespace Inventory.API.Services.Interfaces
     {
         Task<IEnumerable<InventoryEntryDto>> GetAllByItemNoAsync(string itemNo);
 
-        Task<IEnumerable<InventoryEntryDto>> GetAllByItemPagingAsync(GetInventoryPagingQuery query);
+        Task<PagedList<InventoryEntryDto>> GetAllByItemPagingAsync(GetInventoryPagingQuery query);
 
         Task<InventoryEntryDto> GetByIdAsync(string id);
 

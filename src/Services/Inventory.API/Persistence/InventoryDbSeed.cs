@@ -23,7 +23,7 @@ namespace Inventory.API.Persistence
             {
                 new InventoryEntry()
                 {
-                    ItemNo = "Name Fuck bitch1",
+                    ItemNo = "Name1",
                     DocumentNo = Guid.NewGuid().ToString(),
                     ExternalDocumentNo = Guid.NewGuid().ToString(),
                     Quantity = 10,
@@ -31,10 +31,34 @@ namespace Inventory.API.Persistence
                 },
                 new InventoryEntry()
                 {
-                    ItemNo = "Name Fuck bitch",
+                    ItemNo = "Name2",
                     DocumentNo = Guid.NewGuid().ToString(),
                     ExternalDocumentNo = Guid.NewGuid().ToString(),
                     Quantity = 17,
+                    DocumentType = Shared.Enums.EDocumentType.Purchase
+                },
+                new InventoryEntry()
+                {
+                    ItemNo = "Name3",
+                    DocumentNo = Guid.NewGuid().ToString(),
+                    ExternalDocumentNo = Guid.NewGuid().ToString(),
+                    Quantity = 999,
+                    DocumentType = Shared.Enums.EDocumentType.Purchase
+                },
+                new InventoryEntry()
+                {
+                    ItemNo = "Name3",
+                    DocumentNo = Guid.NewGuid().ToString(),
+                    ExternalDocumentNo = Guid.NewGuid().ToString(),
+                    Quantity = 1000,
+                    DocumentType = Shared.Enums.EDocumentType.Purchase
+                },
+                new InventoryEntry()
+                {
+                    ItemNo = "Name3",
+                    DocumentNo = Guid.NewGuid().ToString(),
+                    ExternalDocumentNo = Guid.NewGuid().ToString(),
+                    Quantity = 10001,
                     DocumentType = Shared.Enums.EDocumentType.Purchase
                 }
             };
