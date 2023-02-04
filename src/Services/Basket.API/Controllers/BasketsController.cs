@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Basket.API.Entities;
+using Basket.API.GrpcServices;
 using Basket.API.Repositories.Interfaces;
 using EventBus.Messages.Events;
 using MassTransit;
@@ -17,12 +18,16 @@ namespace Basket.API.Controllers
         private readonly IBasketRepository _basketRepository;
         private readonly IPublishEndpoint _publishEndpoint;
         private readonly IMapper _mapper;
+        private readonly StockItemGrpcService _stockItemGrpcService;
 
-        public BasketsController(IBasketRepository basketRepository, IPublishEndpoint publishEndpoint, IMapper mapper)
+        public BasketsController(IBasketRepository basketRepository, 
+            IPublishEndpoint publishEndpoint, IMapper mapper,
+            StockItemGrpcService stockItemGrpcService)
         {
-            _basketRepository = basketRepository;
-            _publishEndpoint = publishEndpoint;
-            _mapper = mapper;
+            _basketRepository = basketRepository ?? throw new ArgumentException(nameof(basketRepository));
+            _publishEndpoint = publishEndpoint ?? throw new ArgumentException(nameof(publishEndpoint));
+            _mapper = mapper ?? throw new ArgumentException(nameof(mapper));
+            _stockItemGrpcService = stockItemGrpcService ?? throw new ArgumentException(nameof(stockItemGrpcService));
         }
 
         [HttpGet("{userName}", Name = "GetBasket")]
@@ -37,6 +42,13 @@ namespace Basket.API.Controllers
         [ProducesResponseType(typeof(Cart), (int)HttpStatusCode.OK)]
         public async Task<ActionResult<Cart>> UpdataBasket([FromBody] Cart cart)
         {
+            //Communicate with Inventory
+            foreach (var item in cart.Items)
+            {
+                var stock = await _stockItemGrpcService.GetStock(item.ItemNo);
+                item.SetAvailableQuantity(stock.Quantity);
+            }
+
             var options = new DistributedCacheEntryOptions()
                 .SetAbsoluteExpiration(DateTime.UtcNow.AddHours(1))
                 .SetSlidingExpiration(TimeSpan.FromMinutes(5));

@@ -17,5 +17,9 @@ namespace Basket.API.Entities
 
         [Required]
         public string ItemName { get; set; }
+
+        public int AvailabelQuantity { get; set; }
+
+        public void SetAvailableQuantity(int quantity) => AvailabelQuantity = quantity;
     }
 }

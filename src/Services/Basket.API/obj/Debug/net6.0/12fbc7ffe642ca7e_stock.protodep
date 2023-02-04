@@ -1,0 +1,2 @@
+obj\Debugh/net6.0/Protos/Stock.cs \
+obj\Debugh/net6.0/Protos/StockGrpc.cs: Protos/stock.proto
