@@ -145,7 +145,12 @@
       "ProjectGuid": "6db5310c-7236-4f27-83a5-071bdf02e056",
       "DisplayName": "EventBus.Messages",
       "ColorIndex": 11
+    },
+    "624b147d-e2e7-434d-b890-e0fb9c98eba5": {
+      "ProjectGuid": "624b147d-e2e7-434d-b890-e0fb9c98eba5",
+      "DisplayName": "Inventory.Grpc",
+      "ColorIndex": 12
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 13
 }
