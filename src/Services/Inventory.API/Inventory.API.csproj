@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Inventory.Grpc\**" />
+    <Content Remove="Inventory.Grpc\**" />
+    <EmbeddedResource Remove="Inventory.Grpc\**" />
+    <None Remove="Inventory.Grpc\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.18.0" />
     <PackageReference Include="Serilog" Version="2.12.0" />
