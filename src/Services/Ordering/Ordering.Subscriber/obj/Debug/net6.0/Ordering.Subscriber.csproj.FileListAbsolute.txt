@@ -14,3 +14,4 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\ref\Ordering.Subscriber.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.genruntimeconfig.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Subscriber\obj\Debug\net6.0\Ordering.Subscriber.csproj.AssemblyReference.cache

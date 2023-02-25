@@ -7,6 +7,7 @@
             app.UseSwagger();
             app.UseSwaggerUI();
 
+            app.UseAuthentication();
             app.UseRouting();
             //app.UseHttpsRedirection();    // for production
 

@@ -79,3 +79,8 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Orderin
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.Application\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

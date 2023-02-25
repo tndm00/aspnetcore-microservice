@@ -133,3 +133,8 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\ob
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\obj\Debug\net6.0\ref\Inventory.API.dll
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\obj\Debug\net6.0\Inventory.API.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\obj\Debug\net6.0\Inventory.API.genruntimeconfig.cache
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Inventory.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
