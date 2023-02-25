@@ -127,3 +127,8 @@ D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\b
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Infrastructure.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Contracts.pdb
 D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Shared.pdb
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\ThanhNhan\micro-service\aspnetcore-microservice\src\ApiGateways\OcelotApiGw\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yjdDltHp/MsaOMylCZgrL6pceEz+WAqK7Y0O665Hy+WAa0XuMxBVqlRKO8fR7MD1RF9hSYpiixHbSwQXf3/vgQ==",
+  "dgSpecHash": "p3vKCFZS/aUqPRr05d3neIvhiQjlxSSLrTOBjzVbqWrkj3/GqgerGvic5ufpqR6JObD6BQa3j/rRFuBldyRX/A==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [],

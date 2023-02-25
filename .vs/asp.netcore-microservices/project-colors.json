@@ -150,7 +150,12 @@
       "ProjectGuid": "624b147d-e2e7-434d-b890-e0fb9c98eba5",
       "DisplayName": "Inventory.Grpc",
       "ColorIndex": 12
+    },
+    "9e6abf68-1fca-4401-b0ba-be5a0dd14ccd": {
+      "ProjectGuid": "9e6abf68-1fca-4401-b0ba-be5a0dd14ccd",
+      "DisplayName": "OcelotApiGw",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }

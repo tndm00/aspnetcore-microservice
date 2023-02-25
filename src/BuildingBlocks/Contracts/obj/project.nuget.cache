@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MaZlr6XOaaUfW22UlV2qMi+PWcuE6V+NzihXwa6QSjSN1i/rgJKIPFS8d2YgTZ3aaJTK0sEXqtgfrwRm99qsGw==",
+  "dgSpecHash": "36HgsxvfsLVsqLxpEO5Tlm4n1bqfYNJ49opIU/znwpZsuQqnWed6zj63CZo5cQhTTOfXSngpuOxVvnKjPImLxg==",
   "success": true,
   "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
   "expectedPackageFiles": [
