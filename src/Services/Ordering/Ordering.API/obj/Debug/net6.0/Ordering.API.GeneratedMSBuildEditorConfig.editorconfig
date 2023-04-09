@@ -8,37 +8,37 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ordering.API
 build_property.RootNamespace = Ordering.API
-build_property.ProjectDir = D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API\
+build_property.ProjectDir = D:\ThanhNhan\TEDU-Microservices\aspnetcore-microservice\src\Services\Ordering\Ordering.API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ThanhNhan\micro-service\aspnetcore-microservice\src\Services\Ordering\Ordering.API
+build_property.MSBuildProjectDirectory = D:\ThanhNhan\TEDU-Microservices\aspnetcore-microservice\src\Services\Ordering\Ordering.API
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Error.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Index.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Privacy.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/_ViewImports.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/_ViewStart.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ThanhNhan/micro-service/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Shared/_Layout.cshtml]
+[D:/ThanhNhan/TEDU-Microservices/aspnetcore-microservice/src/Services/Ordering/Ordering.API/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-t1fdrzo5xq

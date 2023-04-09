@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AdqQ7EHCjbE3gzQLfmztHBIb5lM7RQBVohDkKxTvneVf+ZFfC8HlxxOB12KB9LtZsyABDoCoEF2znjynwPyD+w==",
+  "dgSpecHash": "DGoRu6xmtqdK/9dsPqVk048CSjMurplhkJSadCKKj6+tu2qNTqd1pkOeZdD1YzjKFzYQsEUmD6IUMgUWyFtUkA==",
   "success": true,
-  "projectFilePath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Subscriber\\Ordering.Subscriber.csproj",
+  "projectFilePath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Subscriber\\Ordering.Subscriber.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nhant\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
-    "C:\\Users\\nhant\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\nhant\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+    "C:\\Users\\CHUNGHAC\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\CHUNGHAC\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\CHUNGHAC\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
