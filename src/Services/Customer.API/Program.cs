@@ -2,12 +2,14 @@
 using Common.Logging;
 using Contracts.Common.Interfaces;
 using Customer.API.Controllers;
+using Customer.API.Extensions;
 using Customer.API.Porsistence;
 using Customer.API.Repositories;
 using Customer.API.Repositories.Interfaces;
 using Customer.API.Services;
 using Customer.API.Services.Interfaces;
 using Infrastructure.Common;
+using Infrastructure.ScheduledJobs;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
@@ -19,7 +21,8 @@ Log.Information("Starting Customer Minimal API up");
 try
 {
     // Add services to the container.
-
+    builder.Host.AddAppConfigurations();
+    builder.Services.AddConfigurationSettings(builder.Configuration);
     builder.Services.AddControllers();
     // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
     builder.Services.AddEndpointsApiExplorer();
@@ -32,6 +35,9 @@ try
     builder.Services.AddScoped<ICustomerRepository, CustomerRepository>()
         .AddScoped(typeof(ICustomerService), typeof(CustomerService));
 
+    builder.Services.ConfigureCustomerContext();
+    builder.Services.AddInfastructureServices();
+    builder.Services.AddTndmHangfireService();
     var app = builder.Build();
 
     app.MapGet("/", () => "Wellcome to Customer Minial API");
@@ -58,7 +64,7 @@ try
     });
 
     app.UseAuthorization();
-
+    app.UseHangfireDashboard(builder.Configuration);
     app.MapControllers();
 
     app.SeedCustomerData()

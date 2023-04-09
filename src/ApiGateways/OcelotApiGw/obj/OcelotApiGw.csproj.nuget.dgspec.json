@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {}
   },
   "projects": {
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
         "projectName": "OcelotApiGw",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
-        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\obj\\",
+        "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\OcelotApiGw.csproj",
+        "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\ApiGateways\\OcelotApiGw\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Libs\\Offline Packages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,19 +25,19 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Libs\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
-              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+              "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -68,8 +67,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,25 +79,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "projectName": "Common.Logging",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
-        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Libs\\Offline Packages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,8 +104,8 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Libs\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -150,8 +147,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -160,25 +156,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\obj\\",
+        "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Libs\\Offline Packages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,16 +181,16 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Libs\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
-                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj"
               }
             }
           }
@@ -225,8 +220,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -235,25 +229,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
+        "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Libs\\Offline Packages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -261,19 +254,19 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Libs\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
               },
-              "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
-                "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
               }
             }
           }
@@ -291,6 +284,26 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.34, )"
+            },
+            "Hangfire.Console": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Hangfire.Console.Extensions": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Hangfire.Mongo": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "Hangfire.PostgreSql": {
+              "target": "Package",
+              "version": "[1.19.12, )"
             },
             "MailKit": {
               "target": "Package",
@@ -319,8 +332,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -329,25 +341,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+    "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-        "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\obj\\",
+        "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+        "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Libs\\Offline Packages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -355,8 +366,8 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\Libs\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -390,8 +401,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -400,7 +410,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

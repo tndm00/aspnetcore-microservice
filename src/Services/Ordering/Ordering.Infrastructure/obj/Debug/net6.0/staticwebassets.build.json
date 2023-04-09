@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "fgkmE1bTNun6UZwYM8nVBzw+DYXdddj7en46HR1Gehc=",
+  "Hash": "3Y6nZ4d3cfAMpiSdES0PFmgiXJdp4x4owVKrcU9Gafs=",
   "Source": "Ordering.Infrastructure",
   "BasePath": "_content/Ordering.Infrastructure",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\Ordering.Application.csproj",
       "Version": 2,
       "Source": "Ordering.Application",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -18,7 +18,7 @@
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\Ordering.Domain.csproj",
       "Version": 2,
       "Source": "Ordering.Domain",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -33,31 +33,31 @@
     {
       "Name": "Ordering.Application\\wwwroot",
       "Source": "Ordering.Application",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "Pattern": "**"
     },
     {
       "Name": "Ordering.Domain\\wwwroot",
       "Source": "Ordering.Domain",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "Pattern": "**"
     },
     {
       "Name": "Ordering.Infrastructure\\wwwroot",
       "Source": "Ordering.Infrastructure",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Application.bundle.scp.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Application.bundle.scp.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "Ordering.Application.bundle.scp.css",
       "AssetKind": "All",
@@ -68,13 +68,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Application.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Application.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\css\\site.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -88,10 +88,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\favicon.ico",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -105,10 +105,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\js\\site.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -139,10 +139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -156,10 +156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -173,10 +173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -190,10 +190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -224,10 +224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -241,10 +241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -258,10 +258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -275,10 +275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -292,10 +292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -309,10 +309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -326,10 +326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -343,10 +343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -360,10 +360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -377,10 +377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -394,10 +394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -411,10 +411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -428,10 +428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -445,10 +445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -462,10 +462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -496,10 +496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -513,10 +513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -547,10 +547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -564,10 +564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -581,10 +581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -598,10 +598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -615,10 +615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -632,10 +632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -649,10 +649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -666,10 +666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -683,10 +683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -700,10 +700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -717,10 +717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -734,10 +734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -751,10 +751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -768,10 +768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -785,10 +785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -802,10 +802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -819,10 +819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -870,10 +870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -887,10 +887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -904,10 +904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -921,10 +921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -938,10 +938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -955,10 +955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -972,10 +972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -989,10 +989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1006,10 +1006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1023,10 +1023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1040,10 +1040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1057,10 +1057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1074,10 +1074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Ordering.Application",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Application\\wwwroot\\",
       "BasePath": "_content/Ordering.Application",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1091,10 +1091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Domain.bundle.scp.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Domain.bundle.scp.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "Ordering.Domain.bundle.scp.css",
       "AssetKind": "All",
@@ -1105,13 +1105,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Domain.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Domain.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\css\\site.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1125,10 +1125,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\favicon.ico",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1142,10 +1142,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\js\\site.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1159,10 +1159,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1210,10 +1210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1227,10 +1227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1244,10 +1244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1261,10 +1261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1278,10 +1278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1295,10 +1295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1312,10 +1312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1329,10 +1329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1346,10 +1346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1363,10 +1363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1380,10 +1380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1397,10 +1397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1414,10 +1414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1431,10 +1431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1448,10 +1448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1465,10 +1465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1482,10 +1482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1516,10 +1516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1533,10 +1533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1567,10 +1567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1584,10 +1584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1601,10 +1601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1618,10 +1618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1635,10 +1635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1652,10 +1652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1669,10 +1669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1686,10 +1686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1703,10 +1703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1720,10 +1720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1737,10 +1737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1754,10 +1754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1771,10 +1771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1788,10 +1788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1805,10 +1805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1839,10 +1839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1856,10 +1856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1873,10 +1873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1890,10 +1890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1924,10 +1924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1941,10 +1941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1958,10 +1958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1975,10 +1975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1992,10 +1992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2009,10 +2009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2026,10 +2026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2043,10 +2043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2060,10 +2060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2077,10 +2077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2094,10 +2094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2111,10 +2111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Ordering.Domain",
       "SourceType": "Project",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Domain\\wwwroot\\",
       "BasePath": "_content/Ordering.Domain",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2128,10 +2128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ordering.Infrastructure.styles.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ordering.Infrastructure.styles.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "Ordering.Infrastructure.styles.css",
       "AssetKind": "All",
@@ -2142,13 +2142,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ordering.Infrastructure.styles.css"
+      "OriginalItemSpec": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Ordering.Infrastructure.styles.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Infrastructure.bundle.scp.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Infrastructure.bundle.scp.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "Ordering.Infrastructure.bundle.scp.css",
       "AssetKind": "All",
@@ -2159,13 +2159,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Infrastructure.bundle.scp.css"
+      "OriginalItemSpec": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Ordering.Infrastructure.bundle.scp.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\css\\site.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\css\\site.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2179,10 +2179,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\favicon.ico",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\favicon.ico",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2196,10 +2196,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\js\\site.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\js\\site.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2213,10 +2213,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2230,10 +2230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2247,10 +2247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2264,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2281,10 +2281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2298,10 +2298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2315,10 +2315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2332,10 +2332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2349,10 +2349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2366,10 +2366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2383,10 +2383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2400,10 +2400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2417,10 +2417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2434,10 +2434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2451,10 +2451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2468,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2485,10 +2485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2502,10 +2502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2519,10 +2519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2536,10 +2536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2553,10 +2553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2570,10 +2570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2587,10 +2587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2604,10 +2604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2621,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2638,10 +2638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2655,10 +2655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2672,10 +2672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2689,10 +2689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2706,10 +2706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2723,10 +2723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2740,10 +2740,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2757,10 +2757,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2774,10 +2774,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2791,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2808,10 +2808,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2825,10 +2825,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2842,10 +2842,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2859,10 +2859,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2876,10 +2876,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2893,10 +2893,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2910,10 +2910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2927,10 +2927,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2944,10 +2944,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2961,10 +2961,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2978,10 +2978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2995,10 +2995,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3012,10 +3012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3029,10 +3029,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3046,10 +3046,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3063,10 +3063,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3080,10 +3080,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3097,10 +3097,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3114,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3131,10 +3131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3148,10 +3148,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3165,10 +3165,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Ordering.Infrastructure",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
+      "ContentRoot": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\Services\\Ordering\\Ordering.Infrastructure\\wwwroot\\",
       "BasePath": "_content/Ordering.Infrastructure",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -768,25 +768,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nhant\\.nuget\\packages\\": {},
-    "D:\\Libs\\Offline Packages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\CHUNGHAC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+      "projectUniqueName": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
       "projectName": "Common.Logging",
-      "projectPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
-      "packagesPath": "C:\\Users\\nhant\\.nuget\\packages\\",
-      "outputPath": "D:\\ThanhNhan\\micro-service\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+      "projectPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+      "packagesPath": "C:\\Users\\CHUNGHAC\\.nuget\\packages\\",
+      "outputPath": "D:\\ThanhNhan\\TEDU-Microservices\\aspnetcore-microservice\\src\\BuildingBlocks\\Common.Logging\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Libs\\Offline Packages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages"
       ],
       "configFilePaths": [
-        "C:\\Users\\nhant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CHUNGHAC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -794,8 +792,8 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Libs\\System\\Components\\Packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -837,8 +835,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -847,7 +844,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
