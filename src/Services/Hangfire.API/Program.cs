@@ -16,6 +16,7 @@ try
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
     builder.Services.AddTndmHangfireService();
+    builder.Services.ConfigureServices();
 
     var app = builder.Build();
 
